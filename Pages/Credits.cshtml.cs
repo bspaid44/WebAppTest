@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebAppTest.Pages
 {
-    public class PrivacyModel : PageModel
+    public class CreditsModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<CreditsModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public CreditsModel(ILogger<CreditsModel> logger)
         {
             _logger = logger;
         }
