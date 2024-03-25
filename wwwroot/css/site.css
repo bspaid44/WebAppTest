@@ -23,8 +23,9 @@ html {
 
 .content {
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
     position: relative;
+    margin-left: 25px;
     width: 750px;
     border: 1rem solid black;
 }
@@ -33,4 +34,8 @@ img {
     position: absolute;
     width: 750px;
     transition: .35s;
+}
+
+.move {
+    transform: scale(1.1);
 }
