@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.main {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 700px;
+}
+
+.content {
+    overflow: hidden;
+    background-color: grey;
+    position: relative;
+    width: 750px;
+    border: 1rem solid black;
+}
+
+img {
+    position: absolute;
+    width: 750px;
+    transition: .35s;
+}
