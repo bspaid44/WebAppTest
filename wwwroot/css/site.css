@@ -23,8 +23,11 @@ html {
   min-height: 100%;
 }
 
+body {
+    background-image: url('../images/dana-devolk-E0BdstzaO8E-unsplash.jpg');
+}
+
 .main {
-    margin-top: 60px;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
@@ -35,15 +38,15 @@ html {
     background-color: black;
     position: relative;
     margin-left: 25px;
-    height: 250px;
+    height: 370px;
     border: 1rem solid black;
     border-radius: 3rem;
     box-shadow: 0 0 1rem black;
 }
 
 img {
-    width: 250px;
-    height: 225px;
+    width: 350px;
+    height: 355px;
     transition: .35s;
 }
 
@@ -62,6 +65,32 @@ img {
     text-align: center;
 }
 
-.artistlink {
-    text-decoration: none;
+.gallery-title {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-title-msg {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: "Workbench", sans-serif;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0 0 1rem green;
+}
+
+.credits-list {
+    background-color: grey;
+    height: fit-content;
+    width: fit-content;
+    padding: 15px 15px 15px 15px;
+    margin: 50px 0px 0px 30%px;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem black;
+}
+
+footer {
+    background-color: white;
 }
