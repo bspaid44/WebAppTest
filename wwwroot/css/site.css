@@ -79,10 +79,11 @@ img {
     text-align: center;
     text-decoration-line: underline;
     text-shadow: 0 0 1rem green;
+    margin-left: 30px;
 }
 
 .credits-list {
-    background-color: grey;
+    background-color: papayawhip;
     height: fit-content;
     width: fit-content;
     padding: 15px 15px 15px 15px;

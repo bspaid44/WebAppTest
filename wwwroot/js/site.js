@@ -20,3 +20,9 @@ var parallaxInstance2 = new Parallax(scene2, {
 });
 parallaxInstance2.friction(0.15, 0.15);
 
+$('#scene').hide()
+$('#scene').show(600);
+$('#scene1').hide();
+$('#scene1').show(1300);
+$('#scene2').hide();
+$('#scene2').show(2000);
