@@ -8,6 +8,16 @@ html {
   }
 }
 
+@media (max-width: 500px) {
+    .main {
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-content:space-evenly;
+        align-items: center;
+    }
+}
+
 html {
   position: relative;
   min-height: 100%;
