@@ -18,8 +18,6 @@ html {
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 700px;
 }
 
 .content {
@@ -27,14 +25,15 @@ html {
     background-color: black;
     position: relative;
     margin-left: 25px;
-    width: 750px;
+    height: 250px;
     border: 1rem solid black;
-    border-radius: 5rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem black;
 }
 
 img {
-    position: absolute;
-    width: 750px;
+    width: 250px;
+    height: 225px;
     transition: .35s;
 }
 
