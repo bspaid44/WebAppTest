@@ -23,6 +23,10 @@ html {
   min-height: 100%;
 }
 
+header {
+  background-color: black;
+}
+
 body {
     background-image: url('../images/dana-devolk-E0BdstzaO8E-unsplash.jpg');
 }
@@ -93,5 +97,18 @@ img {
 }
 
 footer {
-    background-color: white;
+    background-color: black;
+    color: white;
+    font-family: "Workbench", sans-serif;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Workbench", sans-serif;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Workbench", sans-serif;
+    text-shadow: 0 0 1rem white;
 }
